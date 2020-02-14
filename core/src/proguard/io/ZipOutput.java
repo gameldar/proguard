@@ -157,7 +157,7 @@ public class ZipOutput
 
         ZipEntry entry = new ZipEntry(name,
                                       compress,
-                                      modificationTime,
+                                      0,
                                       extraField,
                                       comment);
 
